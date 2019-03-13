@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* The styles for the parallax */
+.jumbotron {
+  position: relative;
+  height: 350px;
+  padding: 50px;
+  margin: 20;
+  background: grey;
+  background-image: url("https://tedideas.files.wordpress.com/2017/03/e-coli.jpg?w=1451&h=1451");
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+
+
